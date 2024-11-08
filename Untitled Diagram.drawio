@@ -1,9 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="brFeJbVpu5mhzOMsEHPR">
-    <mxGraphModel>
+    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qg60C25bQruNvqml-Nnj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="270" width="687.5" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qg60C25bQruNvqml-Nnj-2" target="qg60C25bQruNvqml-Nnj-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441.25" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-2" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-8" value="home assistant (VM)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-16" value="nuc (192.168.0.2)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="370" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-11" value="nginx&lt;div&gt;www.cagri-ardic.com&lt;/div&gt;&lt;div&gt;https://cagrihome.dns.army&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qg60C25bQruNvqml-Nnj-16">
+          <mxGeometry x="155" y="40" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-10" value="bitwarden&lt;div&gt;(docker)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qg60C25bQruNvqml-Nnj-16">
+          <mxGeometry x="260" y="150" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-9" value="pihole (docker)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qg60C25bQruNvqml-Nnj-16">
+          <mxGeometry x="20" y="160" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
