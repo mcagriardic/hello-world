@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qg60C25bQruNvqml-Nnj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="172.5" y="270" width="687.5" height="460" as="geometry" />
-        </mxCell>
         <mxCell id="qg60C25bQruNvqml-Nnj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qg60C25bQruNvqml-Nnj-2" target="qg60C25bQruNvqml-Nnj-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="441.25" y="330" as="targetPoint" />
@@ -17,6 +14,24 @@
         </mxCell>
         <mxCell id="qg60C25bQruNvqml-Nnj-8" value="home assistant (VM)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qg60C25bQruNvqml-Nnj-16" target="qg60C25bQruNvqml-Nnj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-20" value="WOL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qg60C25bQruNvqml-Nnj-19">
+          <mxGeometry x="-0.2562" y="2" relative="1" as="geometry">
+            <mxPoint x="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qg60C25bQruNvqml-Nnj-16" target="qg60C25bQruNvqml-Nnj-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-24" value="fowards&lt;div&gt;&amp;nbsp;www.cagri-ardic.com&lt;/div&gt;&lt;div&gt;https://cagrihome.dns.army&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qg60C25bQruNvqml-Nnj-22">
+          <mxGeometry x="-0.054" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qg60C25bQruNvqml-Nnj-16" value="nuc (192.168.0.2)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="300" width="370" height="220" as="geometry" />
@@ -29,6 +44,15 @@
         </mxCell>
         <mxCell id="qg60C25bQruNvqml-Nnj-9" value="pihole (docker)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qg60C25bQruNvqml-Nnj-16">
           <mxGeometry x="20" y="160" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-18" value="personal_pc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="161" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-25" value="main (192.168.0.10)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qg60C25bQruNvqml-Nnj-26" value="plex -&amp;gt; serves at base url&lt;div&gt;jellyfin -&amp;gt; serves at /jellyfin&lt;/div&gt;&lt;div&gt;radarr&lt;/div&gt;&lt;div&gt;sonarr&lt;/div&gt;&lt;div&gt;nzbget&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qg60C25bQruNvqml-Nnj-25">
+          <mxGeometry x="20" y="30" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
